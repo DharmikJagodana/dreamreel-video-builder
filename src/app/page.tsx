@@ -12,11 +12,8 @@ import { LoginDialog } from "@/components/login-dialog";
 
 
 export default async function Home() {
-  const session = await getSession();
-
   return (
     <HydrateClient>
-      {!session && <LoginDialog />}
       <div className="h-screen flex flex-col bg-background">
         {/* Top Navigation Bar */}
         <Navbar />

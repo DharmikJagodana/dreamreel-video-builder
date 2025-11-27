@@ -18,13 +18,13 @@ export const WelcomeEmail = ({ name }: WelcomeEmailProps) => (
 
                     <Section className="mb-6">
                         <Heading className="text-2xl font-bold text-gray-900 mb-4">
-                            Welcome to Dailycast, {name}!
+                            Welcome to Dreamreel, {name}!
                         </Heading>
                         <Text className="text-gray-700 mb-4">
-                            I&apos;m Jit, the creator of Dailycast. We&apos;re thrilled to have you join Dailycast. Dailycast is here to help you stay updated with all your industry insights.
+                            Welcome to Dreamreel! We&apos;re excited to have you on board. Dreamreel empowers you to create, edit, and share stunning videos with ease—right from your browser.
                         </Text>
                         <Text className="text-gray-700 mb-6">
-                            To get started, sign up and save your preferences to start receiving email updates. If you have any questions or need assistance, please don&apos;t hesitate to reach out.
+                            Get started by creating your first project, importing your media, and exploring our intuitive editing tools. If you ever need help or have feedback, our team is here for you—just reply to this email!
                         </Text>
                     </Section>
 
